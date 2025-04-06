@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+   <form>
+        <div class="conteiner">
+            <div class="filho1">
+                <DIV><h1>DESAFIO DA TABUADA</h1></DIV>
+                <div class="operacao">
+                    <p>
+                        <input type="text" name="numero1" id="numero1">
+                    </p>
+                    <h1>x</h1>
+                    <p>
+                        <input type="text" name="numero2" id="numero2">
+                    </p>
+                    <h1>=</h1>   
+                    <p>
+                        <input type="text" name="campoRespostaUsuario" id="campoRespostaUsuario">
+                    </p>
+                </div>
+                <div class="acertos">
+                    <h1 id="campoAcertos"></h1>
+
+                    <h1 id="campoErros"></h1>
+                </div>
+                <div class="timer">
+                    <input type="button" value="Iniciar" id="btIniciar">
+                    <input type="button" value="Pausar" id="btParar">
+                    <input type="button" value="Reiniciar" id="btReiniciar">
+                    <div class="paragrafo">
+                        <p id="exibeTimer"></p>
+                    </div>
+            </div>
+        </div>
+    
+   </form>
+
+   <script src="./app.js"></script>
+   
+</body>
+</html>
